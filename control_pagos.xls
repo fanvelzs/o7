@@ -1,0 +1,832 @@
+<?xml version='1.0'?>
+<?mso-application progid='Excel.Sheet'?>
+<Workbook xmlns='urn:schemas-microsoft-com:office:spreadsheet'
+ xmlns:o='urn:schemas-microsoft-com:office:office'
+ xmlns:x='urn:schemas-microsoft-com:office:excel'
+ xmlns:ss='urn:schemas-microsoft-com:office:spreadsheet'
+ xmlns:html='http://www.w3.org/TR/REC-html40'>
+  <Worksheet ss:Name='Pagos'>
+    <Table>
+      <Row>
+        <Cell><Data ss:Type='String'>Numero de Factura</Data></Cell>
+        <Cell><Data ss:Type='String'>Cliente/Empresa</Data></Cell>
+        <Cell><Data ss:Type='String'>Monto Total</Data></Cell>
+        <Cell><Data ss:Type='String'>Abono</Data></Cell>
+        <Cell><Data ss:Type='String'>Fecha de Abono</Data></Cell>
+        <Cell><Data ss:Type='String'>Saldo</Data></Cell>
+        <Cell><Data ss:Type='String'>Estado de Pago</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C2-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A2)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F2<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C3-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A3)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F3<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C4-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A4)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F4<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C5-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A5)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F5<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C6-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A6)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F6<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C7-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A7)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F7<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C8-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A8)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F8<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C9-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A9)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F9<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C10-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A10)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F10<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C11-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A11)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F11<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C12-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A12)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F12<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C13-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A13)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F13<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C14-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A14)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F14<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C15-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A15)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F15<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C16-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A16)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F16<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C17-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A17)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F17<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C18-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A18)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F18<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C19-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A19)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F19<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C20-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A20)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F20<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C21-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A21)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F21<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C22-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A22)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F22<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C23-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A23)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F23<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C24-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A24)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F24<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C25-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A25)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F25<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C26-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A26)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F26<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C27-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A27)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F27<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C28-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A28)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F28<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C29-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A29)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F29<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C30-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A30)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F30<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C31-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A31)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F31<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C32-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A32)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F32<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C33-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A33)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F33<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C34-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A34)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F34<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C35-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A35)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F35<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C36-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A36)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F36<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C37-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A37)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F37<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C38-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A38)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F38<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C39-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A39)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F39<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C40-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A40)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F40<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C41-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A41)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F41<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C42-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A42)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F42<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C43-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A43)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F43<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C44-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A44)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F44<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C45-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A45)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F45<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C46-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A46)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F46<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C47-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A47)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F47<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C48-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A48)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F48<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C49-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A49)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F49<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C50-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A50)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F50<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='Number'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=C51-SUMIFS($D$2:$D$1000,$A$2:$A$1000,A51)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=IF(F51<=0,"Pagado","Pendiente")'><Data ss:Type='String'></Data></Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+  <Worksheet ss:Name='HistorialPorCliente'>
+    <Table>
+      <Row>
+        <Cell><Data ss:Type='String'>Cliente/Empresa</Data></Cell>
+        <Cell><Data ss:Type='String'>Numero de Factura</Data></Cell>
+        <Cell><Data ss:Type='String'>Monto Total</Data></Cell>
+        <Cell><Data ss:Type='String'>Total Abono</Data></Cell>
+        <Cell><Data ss:Type='String'>Saldo Restante</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B2,Pagos!$B$2:$B$1000,$A2)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B2,Pagos!$B$2:$B$1000,$A2)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C2-D2'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B3,Pagos!$B$2:$B$1000,$A3)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B3,Pagos!$B$2:$B$1000,$A3)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C3-D3'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B4,Pagos!$B$2:$B$1000,$A4)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B4,Pagos!$B$2:$B$1000,$A4)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C4-D4'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B5,Pagos!$B$2:$B$1000,$A5)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B5,Pagos!$B$2:$B$1000,$A5)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C5-D5'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B6,Pagos!$B$2:$B$1000,$A6)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B6,Pagos!$B$2:$B$1000,$A6)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C6-D6'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B7,Pagos!$B$2:$B$1000,$A7)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B7,Pagos!$B$2:$B$1000,$A7)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C7-D7'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B8,Pagos!$B$2:$B$1000,$A8)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B8,Pagos!$B$2:$B$1000,$A8)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C8-D8'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B9,Pagos!$B$2:$B$1000,$A9)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B9,Pagos!$B$2:$B$1000,$A9)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C9-D9'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B10,Pagos!$B$2:$B$1000,$A10)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B10,Pagos!$B$2:$B$1000,$A10)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C10-D10'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B11,Pagos!$B$2:$B$1000,$A11)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B11,Pagos!$B$2:$B$1000,$A11)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C11-D11'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B12,Pagos!$B$2:$B$1000,$A12)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B12,Pagos!$B$2:$B$1000,$A12)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C12-D12'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B13,Pagos!$B$2:$B$1000,$A13)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B13,Pagos!$B$2:$B$1000,$A13)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C13-D13'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B14,Pagos!$B$2:$B$1000,$A14)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B14,Pagos!$B$2:$B$1000,$A14)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C14-D14'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B15,Pagos!$B$2:$B$1000,$A15)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B15,Pagos!$B$2:$B$1000,$A15)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C15-D15'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B16,Pagos!$B$2:$B$1000,$A16)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B16,Pagos!$B$2:$B$1000,$A16)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C16-D16'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B17,Pagos!$B$2:$B$1000,$A17)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B17,Pagos!$B$2:$B$1000,$A17)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C17-D17'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B18,Pagos!$B$2:$B$1000,$A18)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B18,Pagos!$B$2:$B$1000,$A18)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C18-D18'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B19,Pagos!$B$2:$B$1000,$A19)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B19,Pagos!$B$2:$B$1000,$A19)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C19-D19'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B20,Pagos!$B$2:$B$1000,$A20)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B20,Pagos!$B$2:$B$1000,$A20)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C20-D20'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B21,Pagos!$B$2:$B$1000,$A21)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B21,Pagos!$B$2:$B$1000,$A21)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C21-D21'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B22,Pagos!$B$2:$B$1000,$A22)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B22,Pagos!$B$2:$B$1000,$A22)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C22-D22'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B23,Pagos!$B$2:$B$1000,$A23)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B23,Pagos!$B$2:$B$1000,$A23)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C23-D23'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B24,Pagos!$B$2:$B$1000,$A24)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B24,Pagos!$B$2:$B$1000,$A24)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C24-D24'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B25,Pagos!$B$2:$B$1000,$A25)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B25,Pagos!$B$2:$B$1000,$A25)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C25-D25'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B26,Pagos!$B$2:$B$1000,$A26)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B26,Pagos!$B$2:$B$1000,$A26)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C26-D26'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B27,Pagos!$B$2:$B$1000,$A27)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B27,Pagos!$B$2:$B$1000,$A27)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C27-D27'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B28,Pagos!$B$2:$B$1000,$A28)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B28,Pagos!$B$2:$B$1000,$A28)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C28-D28'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B29,Pagos!$B$2:$B$1000,$A29)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B29,Pagos!$B$2:$B$1000,$A29)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C29-D29'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B30,Pagos!$B$2:$B$1000,$A30)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B30,Pagos!$B$2:$B$1000,$A30)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C30-D30'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B31,Pagos!$B$2:$B$1000,$A31)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B31,Pagos!$B$2:$B$1000,$A31)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C31-D31'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B32,Pagos!$B$2:$B$1000,$A32)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B32,Pagos!$B$2:$B$1000,$A32)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C32-D32'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B33,Pagos!$B$2:$B$1000,$A33)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B33,Pagos!$B$2:$B$1000,$A33)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C33-D33'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B34,Pagos!$B$2:$B$1000,$A34)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B34,Pagos!$B$2:$B$1000,$A34)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C34-D34'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B35,Pagos!$B$2:$B$1000,$A35)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B35,Pagos!$B$2:$B$1000,$A35)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C35-D35'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B36,Pagos!$B$2:$B$1000,$A36)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B36,Pagos!$B$2:$B$1000,$A36)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C36-D36'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B37,Pagos!$B$2:$B$1000,$A37)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B37,Pagos!$B$2:$B$1000,$A37)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C37-D37'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B38,Pagos!$B$2:$B$1000,$A38)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B38,Pagos!$B$2:$B$1000,$A38)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C38-D38'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B39,Pagos!$B$2:$B$1000,$A39)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B39,Pagos!$B$2:$B$1000,$A39)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C39-D39'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B40,Pagos!$B$2:$B$1000,$A40)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B40,Pagos!$B$2:$B$1000,$A40)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C40-D40'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B41,Pagos!$B$2:$B$1000,$A41)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B41,Pagos!$B$2:$B$1000,$A41)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C41-D41'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B42,Pagos!$B$2:$B$1000,$A42)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B42,Pagos!$B$2:$B$1000,$A42)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C42-D42'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B43,Pagos!$B$2:$B$1000,$A43)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B43,Pagos!$B$2:$B$1000,$A43)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C43-D43'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B44,Pagos!$B$2:$B$1000,$A44)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B44,Pagos!$B$2:$B$1000,$A44)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C44-D44'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B45,Pagos!$B$2:$B$1000,$A45)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B45,Pagos!$B$2:$B$1000,$A45)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C45-D45'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B46,Pagos!$B$2:$B$1000,$A46)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B46,Pagos!$B$2:$B$1000,$A46)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C46-D46'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B47,Pagos!$B$2:$B$1000,$A47)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B47,Pagos!$B$2:$B$1000,$A47)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C47-D47'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B48,Pagos!$B$2:$B$1000,$A48)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B48,Pagos!$B$2:$B$1000,$A48)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C48-D48'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B49,Pagos!$B$2:$B$1000,$A49)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B49,Pagos!$B$2:$B$1000,$A49)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C49-D49'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B50,Pagos!$B$2:$B$1000,$A50)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B50,Pagos!$B$2:$B$1000,$A50)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C50-D50'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell><Data ss:Type='String'></Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$C$2:$C$1000,Pagos!$A$2:$A$1000,$B51,Pagos!$B$2:$B$1000,$A51)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=SUMIFS(Pagos!$D$2:$D$1000,Pagos!$A$2:$A$1000,$B51,Pagos!$B$2:$B$1000,$A51)'><Data ss:Type='Number'>0</Data></Cell>
+        <Cell ss:Formula='=C51-D51'><Data ss:Type='Number'>0</Data></Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>
